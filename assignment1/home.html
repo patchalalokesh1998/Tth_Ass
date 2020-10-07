@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>home</title>
+<style>
+  #header
+  {
+    background-color: black;
+    margin:0px;
+    width:100%;
+
+      }
+  #home{
+    color:white;
+    font-size: 30px;
+    position: relative;
+    left:30px;
+      }
+      #login
+      {
+         color:white;
+    font-size: 30px;
+    position: relative;
+    left:50px;
+      }
+   #login:hover{
+     opacity: 0.8;
+    }
+     #home:hover{
+     opacity: 0.8;
+    }
+     #pageheading{
+      color:white;
+      font-size: 40px;
+      position:relative;
+      left:15%;
+    }
+
+    #pageheading:hover{
+      opacity: 0.8;
+
+    }
+     #search{
+  margin-top:10px;
+  margin-bottom: 0px;
+  padding:4px;
+  float:right;
+  position: relative;
+
+}
+#about_us
+{
+  float:right;
+  color:white;
+  font-size: 30px;
+  position: relative;
+  right:40px;
+  margin-top: 10px;
+
+}
+ #about_us:hover{
+      opacity: 0.8;
+
+    }
+#search_button
+{
+  width:2%;
+  height:1%;
+  float:right;
+  margin-right:10px;
+  padding: 0px;
+  margin-top:10px;
+background-color: grey;
+right:15px;
+top:0px;
+}
+#search_img
+{
+  width:30px;
+  height: 22px;
+}
+a{
+  text-decoration: none;
+}
+
+
+.row{
+  background-color:#FAEBD7 ;
+}
+.col{
+  width:48%;
+  float: right;
+  border:3px solid black;
+  height:auto;
+  margin-top: 120px;
+  position: relative;
+
+}
+.col:hover{
+  margin-top: 70px;
+  background-color: #F5DEB3;
+}
+p{
+  float:right;
+}
+article{
+width: 80%;
+position: relative;
+left:60px;
+background: rgba(0,0,0,0.7);
+  color:white;
+}
+button{
+    width: 25%;
+    background-color:#0000FF;
+    color: white;
+    float:right;
+    padding:16px ;
+    margin: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position:relative;
+
+}
+button:hover{
+  opacity: 1;
+  background-color: green;
+}
+ #fouter{
+          background-color:black;
+        }
+        #contact_us,h4{
+          color:white;
+          text-align: center;
+          margin-top: 0px;
+        }
+        #copy{
+          margin-bottom: 0px;
+        }
+h2:hover{
+  font-size: 30px;
+  cursor:pointer;
+
+}
+.top{
+  float:right;
+  width:8%;
+  position: fixed;
+  height: 8%;
+  bottom: 22%;
+  right:0%;
+  text-align: center;
+  background-color: black;
+}
+li{
+  width: 30%;
+  height: 30%;
+  background:black;
+  padding: 5px;
+  margin: 10px;
+}
+ul{
+  margin:0px;
+}
+ul a{
+  color:white;
+}
+  
+ul li:hover{
+  padding: 9px;
+
+}
+img{
+  width:50%;
+  height:50%;
+}
+
+@media (min-width: 0px) and (max-width: 576px)  {
+ 
+  #header
+  {
+    padding: 10px;
+  }
+  #pageheading{
+      color:red;
+      font-size:15px;
+      position:relative;
+      left:5%;
+    }
+    #home{
+    color:white;
+    font-size: 10px;
+    position: relative;
+    left:1%;
+
+      }
+      #login
+      {
+         color:white;
+    font-size: 10px;
+    position: relative;
+    left:2%;
+      }
+      #about_us{
+  float:right;
+  color:white;
+  font-size: 10px;
+  position: relative;
+  right:40px;
+  margin-top: 10px;
+  visibility: hidden;
+
+}
+#search{
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding:0px;
+  float:right;
+  position: relative;
+  width: 20%;
+
+
+}
+#search_img
+{
+  width:30px;
+  height: 20px;
+}
+#search_button
+{
+  width:2%;
+  height:2%;
+  float:right;
+  margin-right:10px;
+  padding: 0px;
+  margin-top:0px;
+background-color: grey;
+padding-bottom: 5px;
+right:16px;
+top:0px;
+}
+li{
+  width: 40%;
+  height: 40%;
+  background:black;
+  padding: 5px;
+  margin: 10px;
+  font-size: 10px;
+}
+ul{
+  margin:0px;
+}
+ul a{
+  color:white;
+}
+  
+ul li:hover{
+  padding: 9px;
+
+}
+img{
+  width:99%;
+  height:100%;
+  position: relative;
+  right:1%;
+}
+.row{
+  width: 100%;
+  border: 1px solid black;
+}
+.col{
+  width:100%;
+  height:auto;
+  margin-top: 0px;
+  border: 0px;
+
+}
+.col:hover{
+  margin-top: 0px;
+  background-color: #F5DEB3;
+}
+p{
+  float:right;
+}
+article{
+width: 80%;
+position: relative;
+margin-left:5px;
+background: rgba(0,0,0,0.7);
+  color:white;
+  left: 30px; 
+}
+hr{
+  border: 2px solid black;
+}
+button{
+    width: 20%;
+    background-color:#0000FF;
+    color: white;
+    float:right;
+    padding:10px ;
+    margin: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    position:relative;
+
+}
+.top{
+  float:right;
+  width:8%;
+  position: fixed;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  bottom: 22%;
+  right:0%;
+  text-align: center;
+  background-color: black;
+  margin-right: 10px; 
+}
+
+  }
+  @media (min-width: 577px) and (max-width: 1206px)  {
+
+     #header
+  {
+    padding: 10px;
+  }
+  #pageheading{
+      color:red;
+      font-size:20px;
+      position:relative;
+      left:8%;
+    }
+    #home{
+    color:white;
+    font-size: 15px;
+    position: relative;
+    left:1%;
+
+      }
+      #login
+      {
+         color:white;
+    font-size: 15px;
+    position: relative;
+    left:2%;
+      }
+      #about_us{
+  float:right;
+  color:white;
+  font-size: 15px;
+  position: relative;
+  right:40px;
+  margin-top: 5px;
+  visibility: none;
+
+}
+#search{
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding:0px;
+  float:right;
+  position: relative;
+  width: 20%;
+
+
+}
+#search_img
+{
+  width:30px;
+  height: 20px;
+}
+#search_button
+{
+  width:2%;
+  height:2%;
+  float:right;
+  margin-right:10px;
+  padding: 0px;
+  margin-top:0px;
+background-color: grey;
+padding-bottom: 5px;
+right:16px;
+top:0px;
+}
+li{
+  width: 40%;
+  height: 40%;
+  background:black;
+  padding: 5px;
+  margin: 10px;
+  font-size: 10px;
+}
+ul{
+  margin:0px;
+}
+ul a{
+  color:white;
+}
+  
+ul li:hover{
+  padding: 9px;
+
+}
+img{
+  width:99%;
+  height:100%;
+  position: relative;
+  right:1%;
+}
+.row{
+  width: 100%;
+  border: 1px solid black;
+}
+.col{
+  width:100%;
+  height:auto;
+  margin-top: 0px;
+  border: 0px;
+
+}
+.col:hover{
+  margin-top: 0px;
+  background-color: #F5DEB3;
+}
+p{
+  float:right;
+}
+article{
+width: 80%;
+position: relative;
+margin-left:5px;
+background: rgba(0,0,0,0.7);
+  color:white;
+  left: 30px; 
+}
+hr{
+  border: 2px solid black;
+}
+button{
+    width: 20%;
+    background-color:#0000FF;
+    color: white;
+    float:right;
+    padding:10px ;
+    margin: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    position:relative;
+
+}
+.top{
+  float:right;
+  width:8%;
+  position: fixed;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  bottom: 22%;
+  right:0%;
+  text-align: center;
+  background-color: black;
+  margin-right: 10px; 
+}
+
+
+  }
+
+
+</style>
+</head>
+<body>
+  <div id ="header">
+     <a href=" "><span id ="home">Home</span></a>
+     <a href=" "><span id ="login">Login</span></a>
+     <a href=" "><span id ="pageheading"><strong>Welcome to Tourisum</strong></span></a>
+      <button id="search_button" type="submit"><img  id="search_img" src="search.jfif"></button>
+     <input id="search" type="text" placeholder="Search..">
+     <a href=" "><span id ="about_us">About us</span></a>
+     </div>
+
+    <div class="body">
+
+    <center>
+    <h2 class="title"> Andhra Pradesh</h2>
+  </center>
+ 
+<div style="background-color: #F0F8FF">
+  <div style="width:50%;">
+    <ul class="list_places">Places to visit in AP.
+      <li><a  href="#amaravathi" >1.Amaravathi<p></a></li>
+      <li><a  href="#vizag" >2.Vizag</a></li>
+      <li><a  href="#vijayawada" >3.Vijayawada</a></li>
+      <li><a href="#tirupati" >4.Tirupati</a></li>
+      <li><a  href="#aruku" >5.Araku</a></li>
+      <li ><a  href="#ananthagirihills"  >6.Ananthagiri Hills</a></li>
+      </ul>  
+</div>
+
+</div>
+<hr>
+
+    <div class="row">
+    <img src="amaravathi.jfif" alt="error"  style=" margin: 5px">
+       <div class="col">
+       <h3 style=" text-align: center;">1.Amaravathi</h3>
+      <article id="amaravathi" >
+        Known as the Capital of Andhra Pradesh, Amaravathi is a planned city on the banks of the River Krishna. Amaravathi is renowned for being a site of a Buddhist Stupa that is a semi-hemispherical structure containing Buddhist relics and often called the Abode of God. <strong>Best Time:</strong> November to March
+      </article>
+      <button type="submit">Know more</button>
+       </div>
+     </div>
+       <hr>
+       <div class="row">
+    <img src="vizag.jfif" alt="vizag"  style=" margin: 5px">
+       <div class="col">
+       <h3 style=" text-align: center;">2.Vizag</h3>
+      <article id="vizag">
+        Visakhapatnam, also commonly known as Vizag, is one of the oldest port cities in the country. Situated in the heart of Andhra Pradesh, Visakhapatnam is known for its picturesque beaches and serene landscape, as well as a rich cultural past. The port of Visakhapatnam is renowned for being home to the. <strong>Best Time:</strong> September to March
+      </article>
+      <button type="submit">Know more</button>
+       </div>
+     </div>
+     <hr>
+       <div class="row">
+    <img src=" vijayawada.jpg" alt="vijayawada"  style=" margin: 5px">
+       <div class="col">
+       <h3 style=" text-align: center;">3.Vijayawada</h3>
+      <article id="vijayawada">
+        Nestled on the banks of River Krishna in the state of Andhra Pradesh, Vijayawada is the second-largest populated city in the state. Known as the ‘commercial, political and media capital of Andhra Pradesh’, the city is one of the most rapidly growing urban cities in India. Covered by hills and canals...
+        <strong>Best Time: September to March</strong>
+      </article>
+      <button type="submit">Know more</button>
+       </div>
+     </div>
+     <hr>
+       <div class="row">
+    <img src="tirupati.jpg" alt="tirupati"  style=" margin: 5px">
+       <div class="col">
+       <h3 style=" text-align: center;">4.Tirupati</h3>
+      <article id="tirupati">
+        Situated in the Chittoor district of Andhra Pradesh, Tirupati is known for Lord Venkateshwara Temple, one of the most visited pilgrimage centres in the country. Tirumala is one of the seven hills in Tirupati, where the main temple is located. The temple is believed to be placed where Lord Venka...
+        <strong>Best Time: September to March
+        </strong>
+      </article>
+      <button type="submit">Know more</button>
+       </div>
+     </div>
+     <hr>
+       <div class="row">
+    <img src="aruku.jpg" alt="aruku.jpg"  style=" margin: 5px">
+       <div class="col">
+       <h3 style=" text-align: center;">5.Araku</h3>
+      <article id="aruku">
+       Araku Valley is a comparatively unexplored hill station mostly visited by locals as a weekend getaway and is situated some 120 kilometres away from Vishakhapatnam. If you're a tourist looking for exclusivity and tranquillity, Vistadome train leaves Vishakhapatnam at 6.50 AM, making way through 58 tu...
+      </article>
+      <button type="submit">Know more</button>
+       </div>
+  </div>
+  <hr>
+   <div class="row">
+  <img src="ananthagirihills.jfif" alt="ananthagirihills"  style=" margin: 5px">
+       <div class="col">
+       <h3 style=" text-align: center;">6.Ananthagiri Hills</h3>
+      <article id="ananthagirihills">
+    Set amid the Eastern Ghats, Ananthagiri Hills is a beautiful retreat 90km away from Hyderabad city. One of the earliest human habitat areas, Ananthagiri is a hill town of ancient caves, temples, medieval fort palaces that showcases the history of the area...
+      </article>
+      <button type="submit">Know more</button>
+       </div>
+  </div>
+</div>
+
+  <hr>
+   <div id="fouter">
+       <h3 id="contact_us">contact us:</h3>
+       <h4>Email address:&nbsp&nbspxyz@gmail.com</h4>
+       <h4>Phone Number: <span>10202010</span></h4>
+       <h4 id="copy">Copyrights&copy</h4>
+    </div>
+
+<a class="top_button" href="#header" ><button class="top">top</button></a>
+</body>
+</html>

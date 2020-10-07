@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>login</title>
+<style>
+  #header
+  {
+    background-color: black;
+    margin:0px;
+  }
+  #home{
+    color:white;
+    font-size: 40px;
+    position: relative;
+    left:30px;
+      }
+    #home:hover{
+      opacity: 0.8;
+    }
+    body
+    {
+      background-image: url('bg-01.jpg');
+    }
+    #pageheading{
+      color:white;
+      font-size: 40px;
+      position:relative;
+      left:30%;
+
+    }
+
+    #pageheading:hover{
+      opacity: 0.8;
+
+    }
+    form {
+      width:50%;
+    }
+    b
+    {
+      font-size: 30px;
+      color:white;
+    }
+    form
+    {
+      position: relative;
+      top: 180px;
+      opacity:2;
+    }
+    fieldset
+    {
+      position: relative;
+      left:300px ;
+      background: rgba(0,0,0,0.7);
+    }
+    input[type=text],input[type=password] {
+    width: 50%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#newpass{
+  color:white;
+}
+
+ button{
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding:16px ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 0.8;
+    background-color: black;
+
+
+}
+p{
+  color:white;
+}
+a
+{
+  text-decoration: none;
+}
+#search{
+  width:15%;
+  height:7%;
+  margin-top:5px;
+  margin-bottom: 0px;
+  padding:9px;
+  float:right;
+
+
+}
+#search_button
+{
+  width:5%;
+  height:7%;
+  float:right;
+  margin-right:8px;
+  padding: 0px;
+background-color: grey;
+}
+ #Createacc>p:hover{
+ font-size: 110%;
+}
+img
+{
+  width:30px;
+  height: 30px;
+}
+</style>
+</head>
+<body>
+  <div id ="header">
+     <a href=" "><span id ="home">Home</span></a>
+     <a href=" "><span id ="pageheading"><strong>Welcome to  Tourisum</strong></span></a>
+     
+      <button id="search_button" type="submit"><img src="search.jfif"></button>
+     <input id="search" type="text" placeholder="Search..">
+
+  </div>
+  <form >
+    <center>
+    <fieldset>
+      <label><b>Username</b></label>
+      <br>
+      <input type="text" placeholder="Enter Username">
+      <br>
+      <label><b>Password</b></label>
+      <br>
+      <input type="password" placeholder="Enter Password">
+      <br>
+      <button type="submit">Login</button>
+      <br>
+      <a href="" id="Createacc"><p>Create a new Account</p></a>
+    </fieldset>
+  </form>
+</center>
+
+
+</body>
+</html>
