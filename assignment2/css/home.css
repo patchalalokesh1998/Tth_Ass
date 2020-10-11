@@ -1,0 +1,468 @@
+
+
+  #header
+  {
+    background-color: black;
+    margin:0px;
+    width:100%;
+
+      }
+  #home{
+    color:white;
+    font-size: 30px;
+    position: relative;
+    left:30px;
+      }
+      #login
+      {
+         color:white;
+    font-size: 30px;
+    position: relative;
+    left:50px;
+      }
+   #login:hover{
+     opacity: 0.8;
+    }
+     #home:hover{
+     opacity: 0.8;
+    }
+     #pageheading{
+      color:white;
+      font-size: 40px;
+      position:relative;
+      left:15%;
+    }
+
+    #pageheading:hover{
+      opacity: 0.8;
+
+    }
+     #search{
+  margin-top:10px;
+  margin-bottom: 0px;
+  padding:4px;
+  float:right;
+  position: relative;
+
+}
+#about_us
+{
+  float:right;
+  color:white;
+  font-size: 30px;
+  position: relative;
+  right:40px;
+  margin-top: 10px;
+
+}
+ #about_us:hover{
+      opacity: 0.8;
+
+    }
+#search_button
+{
+  width:2%;
+  height:1%;
+  float:right;
+  margin-right:10px;
+  padding: 0px;
+  margin-top:10px;
+background-color: grey;
+right:15px;
+top:0px;
+}
+#search_img
+{
+  width:30px;
+  height: 22px;
+}
+a{
+  text-decoration: none;
+}
+
+
+.row{
+  background-color:#FAEBD7 ;
+}
+.col{
+  width:48%;
+  float: right;
+  border:3px solid black;
+  height:auto;
+  margin-top: 120px;
+  position: relative;
+
+}
+.col:hover{
+  margin-top: 70px;
+  background-color: #F5DEB3;
+}
+p{
+  float:right;
+}
+article{
+width: 80%;
+position: relative;
+left:60px;
+background: rgba(0,0,0,0.7);
+  color:white;
+}
+button{
+    width: 25%;
+    background-color:#0000FF;
+    color: white;
+    float:right;
+    padding:16px ;
+    margin: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position:relative;
+
+}
+button:hover{
+  opacity: 1;
+  background-color: green;
+}
+ #fouter{
+          background-color:black;
+        }
+        #contact_us,h4{
+          color:white;
+          text-align: center;
+          margin-top: 0px;
+        }
+        #copy{
+          margin-bottom: 0px;
+        }
+h2:hover{
+  font-size: 30px;
+  cursor:pointer;
+
+}
+.top{
+  float:right;
+  width:8%;
+  position: fixed;
+  height: 8%;
+  bottom: 22%;
+  right:0%;
+  text-align: center;
+  background-color: black;
+}
+li{
+  width: 30%;
+  height: 30%;
+  background:black;
+  padding: 5px;
+  margin: 10px;
+}
+ul{
+  margin:0px;
+}
+ul a{
+  color:white;
+}
+  
+ul li:hover{
+  padding: 9px;
+
+}
+img{
+  width:50%;
+  height:50%;
+}
+
+@media (min-width: 0px) and (max-width: 576px)  {
+ 
+  #header
+  {
+    padding: 10px;
+  }
+  #pageheading{
+      color:red;
+      font-size:15px;
+      position:relative;
+      left:5%;
+    }
+    #home{
+    color:white;
+    font-size: 10px;
+    position: relative;
+    left:1%;
+
+      }
+      #login
+      {
+         color:white;
+    font-size: 10px;
+    position: relative;
+    left:2%;
+      }
+      #about_us{
+  float:right;
+  color:white;
+  font-size: 10px;
+  position: relative;
+  right:40px;
+  margin-top: 10px;
+  visibility: hidden;
+
+}
+#search{
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding:0px;
+  float:right;
+  position: relative;
+  width: 20%;
+
+
+}
+#search_img
+{
+  width:30px;
+  height: 20px;
+}
+#search_button
+{
+  width:2%;
+  height:2%;
+  float:right;
+  margin-right:10px;
+  padding: 0px;
+  margin-top:0px;
+background-color: grey;
+padding-bottom: 5px;
+right:16px;
+top:0px;
+}
+li{
+  width: 40%;
+  height: 40%;
+  background:black;
+  padding: 5px;
+  margin: 10px;
+  font-size: 10px;
+}
+ul{
+  margin:0px;
+}
+ul a{
+  color:white;
+}
+  
+ul li:hover{
+  padding: 9px;
+
+}
+img{
+  width:99%;
+  height:100%;
+  position: relative;
+  right:1%;
+}
+.row{
+  width: 100%;
+  border: 1px solid black;
+}
+.col{
+  width:100%;
+  height:auto;
+  margin-top: 0px;
+  border: 0px;
+
+}
+.col:hover{
+  margin-top: 0px;
+  background-color: #F5DEB3;
+}
+p{
+  float:right;
+}
+article{
+width: 80%;
+position: relative;
+margin-left:5px;
+background: rgba(0,0,0,0.7);
+  color:white;
+  left: 30px; 
+}
+hr{
+  border: 2px solid black;
+}
+button{
+    width: 20%;
+    background-color:#0000FF;
+    color: white;
+    float:right;
+    padding:10px ;
+    margin: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    position:relative;
+
+}
+.top{
+  float:right;
+  width:8%;
+  position: fixed;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  bottom: 22%;
+  right:0%;
+  text-align: center;
+  background-color: black;
+  margin-right: 10px; 
+}
+
+  }
+  @media (min-width: 577px) and (max-width: 1206px)  {
+
+     #header
+  {
+    padding: 10px;
+  }
+  #pageheading{
+      color:red;
+      font-size:20px;
+      position:relative;
+      left:8%;
+    }
+    #home{
+    color:white;
+    font-size: 15px;
+    position: relative;
+    left:1%;
+
+      }
+      #login
+      {
+         color:white;
+    font-size: 15px;
+    position: relative;
+    left:2%;
+      }
+      #about_us{
+  float:right;
+  color:white;
+  font-size: 15px;
+  position: relative;
+  right:40px;
+  margin-top: 5px;
+  visibility: none;
+
+}
+#search{
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding:0px;
+  float:right;
+  position: relative;
+  width: 20%;
+
+
+}
+#search_img
+{
+  width:30px;
+  height: 20px;
+}
+#search_button
+{
+  width:2%;
+  height:2%;
+  float:right;
+  margin-right:10px;
+  padding: 0px;
+  margin-top:0px;
+background-color: grey;
+padding-bottom: 5px;
+right:16px;
+top:0px;
+}
+li{
+  width: 40%;
+  height: 40%;
+  background:black;
+  padding: 5px;
+  margin: 10px;
+  font-size: 10px;
+}
+ul{
+  margin:0px;
+}
+ul a{
+  color:white;
+}
+  
+ul li:hover{
+  padding: 9px;
+
+}
+img{
+  width:99%;
+  height:100%;
+  position: relative;
+  right:1%;
+}
+.row{
+  width: 100%;
+  border: 1px solid black;
+}
+.col{
+  width:100%;
+  height:auto;
+  margin-top: 0px;
+  border: 0px;
+
+}
+.col:hover{
+  margin-top: 0px;
+  background-color: #F5DEB3;
+}
+p{
+  float:right;
+}
+article{
+width: 80%;
+position: relative;
+margin-left:5px;
+background: rgba(0,0,0,0.7);
+  color:white;
+  left: 30px; 
+}
+hr{
+  border: 2px solid black;
+}
+button{
+    width: 20%;
+    background-color:#0000FF;
+    color: white;
+    float:right;
+    padding:10px ;
+    margin: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    position:relative;
+
+}
+.top{
+  float:right;
+  width:8%;
+  position: fixed;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  bottom: 22%;
+  right:0%;
+  text-align: center;
+  background-color: black;
+  margin-right: 10px; 
+}
+
+  }
+
