@@ -145,10 +145,10 @@ h2:hover{
   width:8%;
   position: fixed;
   height: 8%;
-  bottom: 22%;
+  bottom: 0px;
   right:0%;
   text-align: center;
-  background-color: black;
+  background-color: red;
 }
 li{
   width: 30%;
@@ -314,7 +314,7 @@ button{
   bottom: 22%;
   right:0%;
   text-align: center;
-  background-color: black;
+  background-color: red;
   margin-right: 10px; 
 }
 
@@ -457,10 +457,10 @@ button{
   position: fixed;
   padding-bottom: 0px;
   padding-top: 0px;
-  bottom: 22%;
+  bottom: 0px;
   right:0%;
   text-align: center;
-  background-color: black;
+  background-color: red;
   margin-right: 10px; 
 }
 

@@ -1,62 +1,124 @@
-<!DOCTYPE html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>registration</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/registration.css">
+    <style type="text/css">
 
-<title>registration</title>
-<link rel="stylesheet" href="css/registration.css">
-<style type="text/css">
-  
 </style>
-</head>
+  </head>
 <body>
-  <div id ="header">
-     <a href=" "><span id ="home">Home</span></a>
-     <a href=" "><span id ="login">Login</span></a>
-     <a href=" "><span id ="pageheading"><strong>Welcome to Tourisum</strong></span></a>
-      <button id="search_button" type="submit"><img src="images/search.jfif"></button>
-     <input id="search" type="text" placeholder="Search..">
+<header class="">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Andhra Pradesh Tourisum</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="login.html">login <span class="sr-only">(current)</span></a>
+      </li>
      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </div>
-  <form >
+</nav>
+</header><div class="body container">
+  <div class="row">
+   <div class="col-0 col-md-2">
+   
+  </div>
+  <div class="col-12 col-md-8">
+    <form >
     <fieldset>
       <table>
       <tr>
       <td><label><b>Name: </b></label></td>
-      <td><input type="text" placeholder="Enter Full Name"></td>
+      <td><input class="form" type="text" placeholder="Enter Full Name"></td>
       </tr>
       <tr>
        <td><label><b>Phone Number: </b></label></td>
-       <td><input type="Number" placeholder="Phone Number"></td>
+       <td><input class="form" type="Number" placeholder="Phone Number"></td>
      </tr>
       <tr>
       <td><label><b>Email: </b></label></td>
-       <td><input type="Email" placeholder="Enter Email Address"></td>
+       <td><input class="form" type="Email" placeholder="Enter Email Address"></td>
      </tr>
      <tr>
       <td>
       <label><b>Gender: </b></label></td>
       <td>
-      <input type="radio" name="gender" ><span id="ll">MALE&nbsp</span>
-      <input type="radio" name="gender" ><span id="ll">FEMALE&nbsp</span>
+      <input type="radio" name="gender" ><label class="ml">MALE&nbsp</label>
+      <input type="radio" name="gender" ><label class="fl">FEMALE&nbsp</label>
     </td>
       </tr>
       <tr>
       <td>
       <label><b>Enter Password: </b></label></td>
       <td>
-      <input type="password" placeholder="Enter Password"></td>
+      <input class="form" type="password" placeholder="Enter Password"></td>
     </tr>
       <tr>
         <td>
       <label><b>Confirm Password: </b></label></td>
       <td>
-      <input type="password" placeholder="Enter Password again"></td>
+      <input class="form" type="password" placeholder="Enter Password again"></td>
     </tr>
   </table>
-      <center><button type="submit">Create Account</button></center>
-      
+  <center>
+      <button class="cacc" type="submit">Create Account</button></center>
+      </fieldset>
   </form>
-</center>
+  </div>
+  <div class="col-0 col-md-8">
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="container">
+<div class="row">
+  <div class="fcontactus col-6 col-sm-6">
+  <div> Contact us:</div>
+  <div>890280</div>
+  <div>Email id: xya@nssnj
+  </div></div>
+  <div class="connect col-6 col-sm-6">
+    <div>Connect with us</div>
+    <div> <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a></div>
+  </div>
+</div>
+<div class="row">
+<div class="col-2 col-sm-3">
+
+  </div>
+  <div class="Rights col-8 col-sm-6">
+    <i class="fa fa-copyright" aria-hidden="true" style="color: white;font-size:20px; "></i>All Rights Reserved
+  </div>
+  <div class="col-2 col-sm-3">
+  </div>
+</div>
+</div>
+</div>
 </body>
 </html>
